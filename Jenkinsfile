@@ -19,6 +19,7 @@ pipeline {
                 sh 'echo "Deploying services"'
                 sh 'docker-compose up -d'
             }
+            
         }
     }
 }
